@@ -1,0 +1,87 @@
+{
+  "plan_metadata": {
+    "context_engineering_version": "community-1.0",
+    "description": "Structured template for complex AI tasks",
+    "created_date": "2025-07-05",
+    "plan_type": "general_purpose"
+  },
+  "execution_context": {
+    "base_understanding": "What the AI should know before starting",
+    "success_definition": "Clear description of what success looks like",
+    "constraints": ["Technical limitations", "Resource constraints", "Timeline requirements"],
+    "assumptions": ["Key assumptions that must hold true"],
+    "context_management": {
+      "approach": "Load information just-in-time, not all upfront",
+      "failure_monitoring": {
+        "watch_for": [
+          "Persistent incorrect information (poisoning)",
+          "Getting distracted by irrelevant context",
+          "Poor tool/approach selection (confusion)",
+          "Contradictory responses (clash)"
+        ]
+      }
+    }
+  },
+  "phases": [
+    {
+      "id": "phase-1",
+      "name": "Setup and Planning",
+      "description": "Get oriented and plan the approach",
+      "tasks": [
+        {
+          "id": "task-1.1",
+          "name": "Understand the Problem",
+          "intent": "Make sure I really understand what needs to be done",
+          "context": {
+            "background": "Why this task matters",
+            "constraints": ["What I can't do", "What I must do"],
+            "success_criteria": "How I'll know this task is done"
+          },
+          "execution": {
+            "approach": "Break down the problem systematically",
+            "steps": [
+              "Read and understand requirements",
+              "Identify key challenges",
+              "Plan approach",
+              "Validate understanding"
+            ]
+          },
+          "validation": {
+            "understanding_check": {
+              "what_am_i_doing": "Clear explanation of the task",
+              "why_this_approach": "Reasoning for chosen method",
+              "confidence_level": "Rate 1-10, need >8 to proceed"
+            },
+            "completion_criteria": [
+              "Can explain the problem clearly",
+              "Have a concrete plan",
+              "Understand success criteria"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "validation_framework": {
+    "before_starting": {
+      "understanding_check": "Can I explain what I'm doing and why?",
+      "confidence_threshold": "8/10 or higher",
+      "resource_check": "Do I have what I need?"
+    },
+    "during_execution": {
+      "progress_checkpoints": "Regular check-ins on progress",
+      "course_correction": "Adjust if things aren't working"
+    },
+    "after_completion": {
+      "success_verification": "Did I achieve the goal?",
+      "quality_check": "Is the work good enough?",
+      "lessons_learned": "What would I do differently?"
+    }
+  },
+  "agent_strategy": {
+    "simple_tasks": "Single agent approach is fine",
+    "complex_tasks": "Consider using specialized agents for different parts",
+    "coordination": "How different agents/approaches work together",
+    "context_isolation": "Keep different workstreams separate to avoid confusion"
+  }
+}
