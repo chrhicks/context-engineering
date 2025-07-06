@@ -1,0 +1,88 @@
+{
+  "template_name": "Backend Developer Template (Experimental)",
+  "version": "experimental",
+  "status": "experimental - feedback welcome",
+  "description": "Template variation focused on backend development patterns that emerged from AI agent experiments",
+  "specialization_focus": "Database design, API architecture, performance optimization",
+  
+  "usage_note": "This is an experimental template. Try it, adapt it, and share what works for your use case.",
+  
+  "context_engineering": {
+    "write_phase": {
+      "project_overview": {
+        "description": "High-level project context and backend requirements",
+        "focus_areas": [
+          "Data flow requirements",
+          "Performance constraints", 
+          "Scalability targets",
+          "Integration requirements"
+        ]
+      },
+      "technical_requirements": {
+        "database_design": {
+          "schema_requirements": "Define entities, relationships, and constraints",
+          "performance_requirements": "Query patterns, indexing strategy, scaling needs",
+          "data_integrity": "Validation rules, constraints, transaction requirements"
+        },
+        "api_architecture": {
+          "endpoint_design": "RESTful patterns, resource modeling, versioning strategy",
+          "authentication": "Auth patterns, security requirements, session management",
+          "error_handling": "Error response patterns, logging, monitoring"
+        },
+        "performance_optimization": {
+          "caching_strategy": "Cache layers, invalidation patterns, performance targets",
+          "query_optimization": "Database query patterns, N+1 prevention, indexing",
+          "scaling_approach": "Horizontal vs vertical scaling, bottleneck identification"
+        }
+      }
+    },
+    "select_phase": {
+      "technology_stack": {
+        "database_selection": "SQL vs NoSQL, specific database choice with justification",
+        "framework_selection": "Backend framework choice based on requirements",
+        "caching_technology": "Redis, Memcached, or application-level caching",
+        "monitoring_tools": "APM, logging, metrics collection"
+      }
+    },
+    "compress_phase": {
+      "implementation_priorities": [
+        "Core data model and database schema",
+        "Essential API endpoints with authentication",
+        "Basic error handling and validation",
+        "Performance monitoring and logging",
+        "Testing framework and initial tests"
+      ]
+    },
+    "isolate_phase": {
+      "suggested_specialists": {
+        "database_specialist": {
+          "focus": "Schema design, query optimization, data integrity",
+          "note": "Consider having AI focus specifically on database concerns"
+        },
+        "api_specialist": {
+          "focus": "Endpoint design, authentication, error handling",
+          "note": "Separate AI context for API-specific decisions"
+        },
+        "performance_specialist": {
+          "focus": "Caching, optimization, monitoring",
+          "note": "Dedicated focus on performance and scalability"
+        }
+      }
+    }
+  },
+  
+  "validation_suggestions": [
+    "Schema design follows normalization principles",
+    "Proper indexing for expected query patterns", 
+    "Authentication is secure and scalable",
+    "Error responses are consistent and informative",
+    "Performance monitoring provides actionable insights"
+  ],
+  
+  "experimental_notes": {
+    "what_we_tried": "Focused template structure on backend-specific concerns to see if it reduced irrelevant context",
+    "potential_benefits": "May help AI stay focused on backend patterns rather than getting distracted by frontend concerns",
+    "limitations": "Only tested in AI agent experiments, not real-world projects",
+    "feedback_needed": "Does this structure actually help with your backend planning? What would you change?"
+  }
+}

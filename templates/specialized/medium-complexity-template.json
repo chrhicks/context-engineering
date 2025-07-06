@@ -1,0 +1,77 @@
+{
+  "template_name": "Medium Complexity Template (Experimental)",
+  "version": "experimental",
+  "status": "experimental - feedback welcome", 
+  "description": "Template variation for balanced full-stack development that emerged from AI agent experiments",
+  "specialization_focus": "Balanced approach for moderate complexity projects",
+  
+  "usage_note": "This is an experimental template. Try it, adapt it, and share what works for your use case.",
+  
+  "context_engineering": {
+    "write_phase": {
+      "project_overview": {
+        "business_requirements": "Core functionality, user needs, success criteria",
+        "technical_scope": "System boundaries, integration points, constraints",
+        "complexity_assessment": "Technical challenges, risk areas, dependencies"
+      },
+      "system_design": {
+        "architecture_overview": "High-level system structure and component interaction",
+        "data_flow": "Information flow between components and external systems",
+        "user_experience": "Key user journeys and interaction patterns",
+        "integration_requirements": "External APIs, services, and data sources"
+      }
+    },
+    "select_phase": {
+      "technology_stack": {
+        "frontend_technology": "Framework selection based on requirements and team skills",
+        "backend_technology": "Server technology, database choice, API approach",
+        "infrastructure_choice": "Cloud platform, deployment strategy, monitoring tools"
+      },
+      "architecture_patterns": {
+        "application_pattern": "MVC, component-based, microservices, or monolithic",
+        "data_pattern": "Database design approach, caching strategy",
+        "api_pattern": "REST, GraphQL, or hybrid API design"
+      }
+    },
+    "compress_phase": {
+      "implementation_priorities": [
+        "Core functionality and essential user flows",
+        "Basic data model and API endpoints",
+        "Essential UI components and user interactions",
+        "Basic testing and quality assurance",
+        "Deployment pipeline and monitoring"
+      ]
+    },
+    "isolate_phase": {
+      "suggested_specialists": {
+        "frontend_specialist": {
+          "focus": "User interface, user experience, client-side functionality",
+          "note": "AI context focused on frontend concerns and patterns"
+        },
+        "backend_specialist": {
+          "focus": "Server-side logic, data management, API design",
+          "note": "Separate AI context for backend-specific decisions"
+        },
+        "integration_specialist": {
+          "focus": "System integration, deployment, monitoring",
+          "note": "Dedicated context for deployment and integration concerns"
+        }
+      }
+    }
+  },
+  
+  "validation_suggestions": [
+    "Core features work as specified",
+    "User flows complete successfully", 
+    "Frontend and backend are properly integrated",
+    "Code meets quality standards and best practices",
+    "Application is responsive across devices"
+  ],
+  
+  "experimental_notes": {
+    "what_we_tried": "Balanced template covering both frontend and backend to see if it worked better for full-stack projects",
+    "potential_benefits": "May provide more comprehensive coverage for projects that need both frontend and backend attention",
+    "limitations": "Only tested in AI agent experiments, not real full-stack projects",
+    "feedback_needed": "Does this balanced approach actually help? Is it too generic or just right?"
+  }
+}

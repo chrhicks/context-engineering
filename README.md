@@ -26,11 +26,23 @@ The whole project was developed collaboratively with AI agents using specialized
 ### Guides & Patterns
 - **[Context Patterns](./guides/context-patterns.md)** - Common issues and solutions
 - **[Getting Started](./guides/getting-started.md)** - Step-by-step introduction
-- **[Quick Reference](./guides/quick-reference.md)** - Essential patterns and checklists
+- **[Agent Squad Integration](./examples/agent-squad-integration.md)** - Patterns for coordinating multiple AI agents
 
 ### Examples
 - **[Before/After](./examples/)** - Real examples showing improvements
 - **[Use Cases](./examples/use-cases/)** - Different scenarios and approaches
+
+## AI Research
+
+This project includes experimental research using AI agents in specialized roles to systematically explore Context Engineering patterns. The research methodology involves:
+
+- **Role-Based AI Agents**: Librarian (organization), Researcher (experimentation), Synthesizer (analysis), Evangelist (documentation)
+- **Systematic Experimentation**: Testing different approaches to context management and agent coordination
+- **Pattern Discovery**: Identifying what works, what doesn't, and why
+
+The findings from these AI agent experiments are documented transparently, including methodology, limitations, and specific contexts where patterns were tested. This isn't academic research - it's practical experimentation to discover useful patterns.
+
+**Note**: All research findings represent AI agent experiments in specific contexts. Real-world results may vary, and we encourage testing these patterns in your own environment to see what works for your use cases.
 
 ## The Story
 
