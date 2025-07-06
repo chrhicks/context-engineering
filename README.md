@@ -26,7 +26,6 @@ The whole project was developed collaboratively with AI agents using specialized
 ### Guides & Patterns
 - **[Context Patterns](./guides/context-patterns.md)** - Common issues and solutions
 - **[Getting Started](./guides/getting-started.md)** - Step-by-step introduction
-- **[Agent Squad Integration](./examples/agent-squad-integration.md)** - Patterns for coordinating multiple AI agents
 
 ### Examples
 - **[Before/After](./examples/)** - Real examples showing improvements
@@ -34,15 +33,17 @@ The whole project was developed collaboratively with AI agents using specialized
 
 ## AI Research
 
-This project includes experimental research using AI agents in specialized roles to systematically explore Context Engineering patterns. The research methodology involves:
+This project includes experimental research using AI agents in specialized roles to systematically explore Context Engineering patterns. The complete research methodology, findings, and limitations are documented in the **[AI Research](./ai-research/)** section.
 
+**Key Points**:
 - **Role-Based AI Agents**: Librarian (organization), Researcher (experimentation), Synthesizer (analysis), Evangelist (documentation)
 - **Systematic Experimentation**: Testing different approaches to context management and agent coordination
 - **Pattern Discovery**: Identifying what works, what doesn't, and why
+- **Full Transparency**: Complete methodology, findings, and limitations documented
 
-The findings from these AI agent experiments are documented transparently, including methodology, limitations, and specific contexts where patterns were tested. This isn't academic research - it's practical experimentation to discover useful patterns.
+**Important**: All research findings represent AI agent experiments in specific contexts. Real-world results may vary, and we encourage testing these patterns in your own environment to see what works for your use cases.
 
-**Note**: All research findings represent AI agent experiments in specific contexts. Real-world results may vary, and we encourage testing these patterns in your own environment to see what works for your use cases.
+**[→ Read the complete AI Research documentation](./ai-research/)**
 
 ## The Story
 

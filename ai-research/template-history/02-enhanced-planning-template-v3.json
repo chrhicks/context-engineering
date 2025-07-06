@@ -1,0 +1,591 @@
+{
+  "plan_metadata": {
+    "context_engineering_version": "3.0",
+    "llm_optimization": "empirically_validated_integration_framework",
+    "cognitive_load_level": "adaptive_based_on_complexity",
+    "format_version": "breakthrough-validated-3.0",
+    "created_date": "2025-07-05",
+    "plan_type": "adaptive_context_engineering",
+    "context_strategy": "complexity_threshold_integration",
+    "experimental_validation": {
+      "template_effectiveness": "+43% improvement (Experiment 002)",
+      "delegation_effectiveness": "100% pollution prevention (Experiment 003)", 
+      "integration_effectiveness": "+52% improvement, perfect scores (Experiment 004)",
+      "synergy_coefficient": "0.81 (strong positive interaction)",
+      "research_confidence": "Very High (9.5/10)"
+    }
+  },
+  "complexity_assessment": {
+    "task_complexity_indicators": {
+      "simple_task_markers": [
+        "Single domain expertise required",
+        "Estimated completion ≤30 minutes",
+        "Clear, well-defined requirements",
+        "Low context pollution risk",
+        "Minimal cross-system integration"
+      ],
+      "complex_task_markers": [
+        "Multiple domain expertise required",
+        "Estimated completion 30-60 minutes", 
+        "Ambiguous or evolving requirements",
+        "High context pollution risk",
+        "Significant cross-system integration"
+      ],
+      "critical_task_markers": [
+        "Mission-critical system impact",
+        "Estimated completion ≥60 minutes",
+        "Complex interdependencies",
+        "Zero-tolerance for context pollution",
+        "Perfect quality scores required"
+      ]
+    },
+    "approach_selection_framework": {
+      "simple_tasks": {
+        "recommended_approach": "templates_only",
+        "expected_improvement": "+43% planning completeness",
+        "time_overhead": "+40% (acceptable for quality gains)",
+        "context_strategy": "systematic_template_structure",
+        "validation_level": "standard_checkpoints"
+      },
+      "complex_tasks": {
+        "recommended_approach": "templates_plus_delegation", 
+        "expected_improvement": "+44% completeness, 100% pollution prevention",
+        "time_overhead": "+33-40% (justified by quality and reliability)",
+        "context_strategy": "master_child_coordination",
+        "validation_level": "specialist_validation"
+      },
+      "critical_tasks": {
+        "recommended_approach": "full_integration",
+        "expected_improvement": "+52% improvement, perfect scores (100/100)",
+        "time_overhead": "+78% (optimal ROI for critical implementations)",
+        "context_strategy": "synergistic_template_delegation_integration",
+        "validation_level": "comprehensive_multi_level_validation"
+      }
+    }
+  },
+  "execution_context": {
+    "base_understanding": "What the LLM should know before starting execution, adapted based on complexity assessment",
+    "reference_points": ["Key files to reference", "Documentation to consult", "Examples to follow", "Specialist expertise areas"],
+    "success_definition": "Clear description of what success looks like, with quality thresholds based on task criticality",
+    "failure_indicators": ["Red flags that indicate the plan is failing", "When to stop and reassess", "Context pollution warning signs"],
+    "assumptions": ["Key assumptions that must hold true", "Environmental prerequisites", "Specialist availability"],
+    "constraints": ["Technical limitations", "Resource constraints", "Timeline requirements", "Quality requirements"],
+    "context_management": {
+      "context_budget": "Maximum tokens allocated across all phases, with delegation overflow handling",
+      "loading_strategy": "adaptive_just_in_time_with_specialist_coordination",
+      "failure_monitoring": {
+        "poisoning_detection": "Monitor for persistent hallucinations in context",
+        "distraction_threshold": "Performance degradation monitoring at 100k+ tokens",
+        "confusion_prevention": "Relevance filtering for tools and information",
+        "clash_resolution": "Contradiction detection and resolution procedures"
+      },
+      "auto_compaction": {
+        "trigger_threshold": "95% of context window capacity",
+        "summarization_strategy": "Trajectory summarization with key decision preservation",
+        "rollback_capability": "Return to last known good state on failure"
+      },
+      "integration_coordination": {
+        "master_agent_role": "Template-guided coordination of specialist child agents",
+        "child_agent_specialization": "Domain-specific expertise with isolated contexts",
+        "handoff_protocols": "Clear information transfer between specialists",
+        "synergy_optimization": "Systematic integration of specialist outputs"
+      }
+    }
+  },
+  "decision_framework": {
+    "approach_selection_decision": {
+      "decision_point": "Context Engineering approach selection",
+      "importance": "critical",
+      "impact_areas": ["quality", "efficiency", "reliability", "context_pollution_risk"],
+      "decision_criteria": {
+        "task_complexity": { "weight": 0.4, "description": "Complexity assessment score" },
+        "quality_requirements": { "weight": 0.3, "description": "Required quality threshold" },
+        "time_constraints": { "weight": 0.2, "description": "Available time budget" },
+        "pollution_risk": { "weight": 0.1, "description": "Context pollution likelihood" }
+      },
+      "options": [
+        {
+          "id": "templates-only",
+          "name": "Templates Only Approach",
+          "description": "Systematic template structure with single agent",
+          "pros": ["Proven +43% improvement", "Lower overhead", "Systematic coverage"],
+          "cons": ["Quality plateau at 95/100", "Context pollution risk", "Limited specialist expertise"],
+          "effort_estimate": "+40% time overhead",
+          "risk_level": "low",
+          "quality_ceiling": "95/100",
+          "evaluation_scores": {
+            "task_complexity": 0.9,
+            "quality_requirements": 0.7,
+            "time_constraints": 0.8,
+            "pollution_risk": 0.6
+          }
+        },
+        {
+          "id": "delegation-enhanced",
+          "name": "Templates + Delegation",
+          "description": "Template structure with specialist coordination",
+          "pros": ["100% pollution prevention", "Specialist expertise", "Quality consistency"],
+          "cons": ["Coordination overhead", "Specialist availability dependency"],
+          "effort_estimate": "+33-40% time overhead",
+          "risk_level": "low",
+          "quality_ceiling": "94-95/100",
+          "evaluation_scores": {
+            "task_complexity": 0.8,
+            "quality_requirements": 0.9,
+            "time_constraints": 0.6,
+            "pollution_risk": 1.0
+          }
+        },
+        {
+          "id": "full-integration",
+          "name": "Synergistic Integration",
+          "description": "Template-guided specialist coordination with optimization",
+          "pros": ["Perfect scores (100/100)", "Synergistic effects", "Zero pollution", "Optimal quality"],
+          "cons": ["Highest overhead", "Complex coordination", "Specialist expertise required"],
+          "effort_estimate": "+78% time overhead",
+          "risk_level": "low",
+          "quality_ceiling": "100/100",
+          "evaluation_scores": {
+            "task_complexity": 1.0,
+            "quality_requirements": 1.0,
+            "time_constraints": 0.4,
+            "pollution_risk": 1.0
+          }
+        }
+      ],
+      "selection_algorithm": "Weighted score calculation with complexity threshold validation",
+      "rationale_template": "Selected {approach} based on {complexity_score} complexity, {quality_requirements} quality needs, and {time_constraints} time constraints"
+    },
+    "critical_decisions": [
+      {
+        "decision_point": "Specialist coordination strategy",
+        "importance": "high",
+        "impact_areas": ["context_pollution", "quality_consistency", "coordination_efficiency"],
+        "decision_criteria": {
+          "domain_separation": { "weight": 0.4, "description": "Clear specialist boundaries" },
+          "integration_complexity": { "weight": 0.3, "description": "Cross-domain coordination needs" },
+          "quality_requirements": { "weight": 0.2, "description": "Required output quality" },
+          "time_efficiency": { "weight": 0.1, "description": "Coordination overhead tolerance" }
+        }
+      }
+    ]
+  },
+  "phases": [
+    {
+      "id": "phase-0",
+      "name": "Context Engineering Approach Selection",
+      "order": 0,
+      "duration": "5-10 minutes",
+      "description": "Assess task complexity and select optimal Context Engineering approach",
+      "context_management": {
+        "inherited_context": {
+          "project_requirements": "High-level objectives and constraints",
+          "available_resources": "Time, expertise, tools, and infrastructure",
+          "quality_thresholds": "Required quality levels and success criteria",
+          "risk_tolerance": "Acceptable levels of context pollution and failure"
+        },
+        "generated_context": {
+          "complexity_assessment": "Quantified task complexity score and categorization",
+          "approach_selection": "Chosen Context Engineering approach with rationale",
+          "specialist_requirements": "Required domain expertise and coordination protocols",
+          "success_metrics": "Specific quality targets and validation criteria"
+        },
+        "context_engineering": {
+          "write_strategy": {
+            "assessment_documentation": "Record complexity analysis and approach selection rationale",
+            "decision_persistence": "Save approach selection for consistent application"
+          },
+          "select_strategy": {
+            "complexity_indicators": "Load task characteristics relevant to approach selection",
+            "historical_patterns": "Reference similar task outcomes and approaches"
+          },
+          "compress_strategy": {
+            "decision_summary": "Compress approach selection into actionable framework",
+            "essential_preservation": "Retain complexity assessment and specialist requirements"
+          },
+          "isolate_strategy": {
+            "approach_validation": "Isolate approach selection from implementation details",
+            "specialist_identification": "Separate domain expertise requirements from execution"
+          }
+        }
+      },
+      "tasks": [
+        {
+          "id": "task-0.1",
+          "name": "Assess Task Complexity",
+          "intent": "Quantify task complexity using validated indicators",
+          "context": {
+            "background": "Complexity assessment determines optimal Context Engineering approach",
+            "dependencies": "None - this is the first assessment task",
+            "constraints": ["Must use empirically validated complexity indicators"],
+            "reference_framework": "Meta-analysis complexity patterns from Experiments 002-004"
+          },
+          "reasoning": {
+            "approach": "Systematic evaluation against validated complexity markers",
+            "alternatives": ["Intuitive assessment", "Time-based estimation only"],
+            "decision_factors": ["Domain count", "Integration complexity", "Quality requirements", "Context pollution risk"],
+            "risks": ["Underestimating complexity", "Overengineering simple tasks"],
+            "mitigation": "Use quantified indicators with threshold validation"
+          },
+          "execution": {
+            "strategy": "systematic_assessment",
+            "steps": [
+              "Evaluate task against simple task markers",
+              "Evaluate task against complex task markers", 
+              "Evaluate task against critical task markers",
+              "Calculate weighted complexity score",
+              "Determine complexity category and recommended approach"
+            ],
+            "validation_criteria": [
+              "All complexity indicators evaluated",
+              "Complexity score calculated with rationale",
+              "Approach recommendation aligned with meta-analysis patterns"
+            ]
+          },
+          "validation": {
+            "understanding_check": {
+              "what_am_i_doing": "Assessing task complexity using empirically validated indicators",
+              "why_this_matters": "Complexity determines optimal Context Engineering approach for best results",
+              "potential_issues": ["Misclassifying complexity", "Ignoring context pollution risk"],
+              "confidence_threshold": 9
+            },
+            "completion_criteria": [
+              "Complexity score calculated (0-100 scale)",
+              "Category assigned (simple/complex/critical)",
+              "Approach recommended with rationale",
+              "Specialist requirements identified if needed"
+            ]
+          }
+        },
+        {
+          "id": "task-0.2", 
+          "name": "Select Context Engineering Approach",
+          "intent": "Choose optimal approach based on complexity assessment and constraints",
+          "context": {
+            "background": "Approach selection determines execution strategy and expected outcomes",
+            "dependencies": ["Complexity assessment completed (task-0.1)"],
+            "constraints": ["Must align with meta-analysis recommendations", "Consider time and resource constraints"],
+            "reference_framework": "Experimental validation from breakthrough research"
+          },
+          "reasoning": {
+            "approach": "Decision framework with weighted criteria and threshold validation",
+            "alternatives": ["Default to full integration", "Always use simplest approach"],
+            "decision_factors": ["Complexity score", "Quality requirements", "Time constraints", "Pollution risk"],
+            "risks": ["Suboptimal approach selection", "Unnecessary overhead", "Quality gaps"],
+            "mitigation": "Use validated decision criteria with experimental evidence"
+          },
+          "execution": {
+            "strategy": "weighted_decision_framework",
+            "steps": [
+              "Apply decision criteria weights to task characteristics",
+              "Calculate approach scores for all three options",
+              "Validate selection against complexity thresholds",
+              "Document approach selection with rationale",
+              "Set up coordination protocols if delegation required"
+            ],
+            "validation_criteria": [
+              "Approach selected with quantified rationale",
+              "Expected outcomes documented (improvement %, quality targets)",
+              "Coordination protocols established if needed",
+              "Success metrics defined for chosen approach"
+            ]
+          },
+          "validation": {
+            "understanding_check": {
+              "what_am_i_doing": "Selecting optimal Context Engineering approach based on validated decision framework",
+              "why_this_matters": "Approach selection determines quality outcomes and efficiency",
+              "potential_issues": ["Misaligned approach selection", "Ignoring resource constraints"],
+              "confidence_threshold": 9
+            },
+            "completion_criteria": [
+              "Approach selected (templates/delegation/integration)",
+              "Expected outcomes documented with experimental evidence",
+              "Coordination strategy defined if delegation involved",
+              "Success metrics and validation criteria established"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "phase-1",
+      "name": "Adaptive Implementation",
+      "order": 1,
+      "duration": "Variable based on selected approach",
+      "description": "Execute using selected Context Engineering approach with systematic coordination",
+      "context_management": {
+        "inherited_context": {
+          "selected_approach": "Chosen Context Engineering approach with rationale",
+          "complexity_assessment": "Task complexity score and categorization",
+          "coordination_protocols": "Specialist coordination strategy if applicable",
+          "success_metrics": "Quality targets and validation criteria"
+        },
+        "generated_context": {
+          "implementation_artifacts": "Code, documentation, and system components created",
+          "specialist_outputs": "Domain-specific contributions if delegation used",
+          "integration_results": "Synergistic effects and quality measurements",
+          "validation_outcomes": "Quality assessments and success metric achievement"
+        },
+        "context_engineering": {
+          "write_strategy": {
+            "approach_execution": "Document implementation following selected approach",
+            "specialist_coordination": "Track specialist contributions and integration",
+            "quality_measurement": "Record quality metrics and improvement measurements"
+          },
+          "select_strategy": {
+            "adaptive_loading": "Load context appropriate to selected approach",
+            "specialist_context": "Provide domain-specific context to child agents",
+            "integration_context": "Coordinate context flow between specialists"
+          },
+          "compress_strategy": {
+            "approach_optimization": "Compress implementation details while preserving quality",
+            "specialist_summaries": "Summarize specialist contributions for integration",
+            "outcome_compression": "Compress results while maintaining validation evidence"
+          },
+          "isolate_strategy": {
+            "specialist_isolation": "Maintain clean context boundaries between specialists",
+            "approach_isolation": "Prevent approach contamination and context pollution",
+            "quality_isolation": "Isolate quality measurement from implementation details"
+          }
+        }
+      },
+      "adaptive_execution": {
+        "templates_only": {
+          "strategy": "systematic_template_structure",
+          "coordination": "single_agent_with_template_guidance",
+          "expected_outcomes": {
+            "planning_completeness": "+43% improvement",
+            "implementation_alignment": "+30% improvement", 
+            "time_overhead": "+40%",
+            "quality_ceiling": "95/100"
+          },
+          "validation_approach": "standard_template_checkpoints",
+          "context_pollution_risk": "low_with_monitoring"
+        },
+        "templates_plus_delegation": {
+          "strategy": "master_child_coordination_with_template_structure",
+          "coordination": "master_coordinates_specialist_child_agents",
+          "specialist_roles": [
+            "Domain experts for specific technical areas",
+            "Integration specialists for cross-domain coordination",
+            "Quality assurance specialists for validation"
+          ],
+          "expected_outcomes": {
+            "planning_completeness": "+44% improvement",
+            "context_pollution": "100% elimination",
+            "coordination_overhead": "+33-40%",
+            "quality_ceiling": "94-95/100"
+          },
+          "validation_approach": "specialist_validation_with_integration_testing",
+          "context_pollution_risk": "eliminated_through_isolation"
+        },
+        "full_integration": {
+          "strategy": "synergistic_template_delegation_optimization",
+          "coordination": "template_guided_specialist_coordination_with_optimization",
+          "specialist_roles": [
+            "Template-coordinated domain specialists",
+            "Integration optimization specialists", 
+            "Quality assurance and validation specialists",
+            "Synergy measurement and optimization specialists"
+          ],
+          "expected_outcomes": {
+            "planning_completeness": "+52% improvement",
+            "quality_scores": "100/100 (perfect)",
+            "context_pollution": "0 incidents",
+            "synergy_coefficient": "0.81 (strong positive interaction)",
+            "time_overhead": "+78%"
+          },
+          "validation_approach": "comprehensive_multi_level_validation_with_synergy_measurement",
+          "context_pollution_risk": "eliminated_with_synergistic_benefits"
+        }
+      }
+    }
+  ],
+  "validation_framework": {
+    "approach_validation": {
+      "complexity_alignment": {
+        "description": "Verify selected approach aligns with task complexity",
+        "criteria": "Approach selection matches complexity assessment and constraints",
+        "method": "Cross-reference with experimental validation patterns",
+        "threshold": "Alignment score > 0.8"
+      },
+      "outcome_prediction": {
+        "description": "Validate expected outcomes against experimental evidence",
+        "criteria": "Predicted improvements align with experimental results",
+        "method": "Reference meta-analysis outcome patterns",
+        "threshold": "Prediction accuracy > 90%"
+      }
+    },
+    "execution_validation": {
+      "quality_measurement": {
+        "description": "Measure actual quality outcomes against predictions",
+        "criteria": "Quality scores meet or exceed predicted improvements",
+        "method": "Quantitative assessment using experimental metrics",
+        "threshold": "Quality targets achieved within 10% variance"
+      },
+      "context_pollution_monitoring": {
+        "description": "Monitor for context pollution incidents during execution",
+        "criteria": "Zero context pollution incidents for delegation approaches",
+        "method": "Real-time monitoring of four failure modes",
+        "threshold": "0 incidents for delegation, <2 for templates-only"
+      },
+      "synergy_measurement": {
+        "description": "Measure synergistic effects in integration approach",
+        "criteria": "Integration outcomes exceed sum of individual components",
+        "method": "Quantitative comparison with additive baseline",
+        "threshold": "Synergy coefficient > 0.7"
+      }
+    },
+    "adaptive_validation": {
+      "approach_effectiveness": {
+        "description": "Validate approach selection effectiveness post-execution",
+        "criteria": "Chosen approach delivered optimal outcomes for task complexity",
+        "method": "Retrospective analysis against alternative approaches",
+        "threshold": "Selected approach within 5% of optimal"
+      },
+      "learning_integration": {
+        "description": "Integrate execution learnings for future approach selection",
+        "criteria": "Execution outcomes inform approach selection refinement",
+        "method": "Update decision criteria weights based on results",
+        "threshold": "Decision framework accuracy improvement > 2%"
+      }
+    }
+  },
+  "cognitive_load_management": {
+    "adaptive_strategies": {
+      "templates_only": {
+        "information_hierarchy": {
+          "primary": "Template structure and current task requirements",
+          "secondary": "Dependencies, constraints, and validation criteria",
+          "tertiary": "Background information and broader project context"
+        },
+        "context_window_strategy": {
+          "focus_principle": "Process template sections systematically",
+          "token_allocation": "70% current section, 20% dependencies, 10% background"
+        }
+      },
+      "delegation_enhanced": {
+        "information_hierarchy": {
+          "primary": "Coordination protocols and specialist handoffs",
+          "secondary": "Domain-specific requirements and integration points",
+          "tertiary": "Individual specialist implementation details"
+        },
+        "context_window_strategy": {
+          "focus_principle": "Coordinate specialists while maintaining isolation",
+          "token_allocation": "50% coordination, 30% specialist context, 20% integration"
+        }
+      },
+      "full_integration": {
+        "information_hierarchy": {
+          "primary": "Template structure guiding specialist coordination",
+          "secondary": "Synergistic optimization and quality measurement",
+          "tertiary": "Individual component implementation details"
+        },
+        "context_window_strategy": {
+          "focus_principle": "Optimize synergistic effects while maintaining systematic structure",
+          "token_allocation": "40% coordination, 30% optimization, 20% template, 10% background"
+        }
+      }
+    },
+    "context_engineering_strategies": {
+      "write_context": {
+        "adaptive_scratchpads": "Use approach-specific working memory patterns",
+        "coordination_memories": "Persist specialist coordination patterns and outcomes",
+        "quality_tracking": "Maintain quality measurement and improvement tracking"
+      },
+      "select_context": {
+        "approach_specific_loading": "Load context patterns appropriate to selected approach",
+        "specialist_context_isolation": "Provide clean, domain-specific context to specialists",
+        "integration_context_coordination": "Coordinate context flow for synergistic effects"
+      },
+      "compress_context": {
+        "approach_aware_compression": "Compress based on approach-specific priorities",
+        "specialist_output_summarization": "Summarize specialist contributions for integration",
+        "quality_preservation": "Always preserve quality measurements and validation results"
+      },
+      "isolate_context": {
+        "approach_isolation": "Prevent contamination between different approaches",
+        "specialist_boundary_maintenance": "Maintain clean boundaries between specialist domains",
+        "quality_measurement_isolation": "Isolate quality assessment from implementation bias"
+      }
+    }
+  },
+  "success_metrics": {
+    "approach_specific_metrics": {
+      "templates_only": {
+        "quantitative": {
+          "planning_completeness": "Target: +43% improvement (7/10 → 10/10)",
+          "implementation_alignment": "Target: +30% improvement (~70% → 100%)",
+          "time_efficiency": "Acceptable: +40% time overhead",
+          "quality_score": "Target: 95/100"
+        },
+        "qualitative": {
+          "systematic_coverage": "All template sections completed systematically",
+          "decision_quality": "Clear rationale for all critical decisions",
+          "validation_thoroughness": "Comprehensive validation at all checkpoints"
+        }
+      },
+      "delegation_enhanced": {
+        "quantitative": {
+          "context_pollution_elimination": "Target: 100% (0 incidents)",
+          "specialist_quality_consistency": "Target: 85-95% across all domains",
+          "coordination_efficiency": "Acceptable: +33-40% time overhead",
+          "quality_score": "Target: 94-95/100"
+        },
+        "qualitative": {
+          "specialist_expertise_utilization": "Clear domain expertise in all specialist outputs",
+          "integration_coherence": "Seamless integration between specialist contributions",
+          "context_boundary_maintenance": "Clean separation between specialist domains"
+        }
+      },
+      "full_integration": {
+        "quantitative": {
+          "synergistic_improvement": "Target: +52% improvement over baseline",
+          "perfect_quality_achievement": "Target: 100/100 quality score",
+          "context_pollution_elimination": "Target: 0 incidents",
+          "synergy_coefficient": "Target: >0.7 (strong positive interaction)",
+          "integration_efficiency": "Acceptable: +78% time overhead"
+        },
+        "qualitative": {
+          "template_specialist_synergy": "Clear evidence of template structure enhancing specialist coordination",
+          "emergent_quality_benefits": "Quality improvements beyond sum of individual components",
+          "systematic_optimization": "Systematic approach to maximizing synergistic effects"
+        }
+      }
+    },
+    "meta_metrics": {
+      "approach_selection_accuracy": "Percentage of optimal approach selections",
+      "outcome_prediction_accuracy": "Variance between predicted and actual outcomes",
+      "learning_integration_effectiveness": "Improvement in approach selection over time",
+      "experimental_validation_alignment": "Alignment with meta-analysis findings"
+    }
+  },
+  "experimental_integration": {
+    "validated_patterns": {
+      "template_effectiveness": {
+        "source": "Experiment 002",
+        "evidence": "+43% planning completeness improvement",
+        "application": "Templates-only approach for simple tasks",
+        "confidence": "High (controlled validation)"
+      },
+      "delegation_effectiveness": {
+        "source": "Experiment 003", 
+        "evidence": "100% context pollution elimination",
+        "application": "Master/child delegation for complex tasks",
+        "confidence": "High (controlled validation)"
+      },
+      "integration_synergy": {
+        "source": "Experiment 004",
+        "evidence": "+52% improvement with perfect scores",
+        "application": "Full integration for critical tasks",
+        "confidence": "Very High (breakthrough validation)"
+      }
+    },
+    "research_integration": {
+      "meta_analysis_compliance": "Template structure aligns with Synthesizer recommendations",
+      "complexity_thresholds": "Decision criteria based on empirical complexity patterns",
+      "outcome_predictions": "Expected results based on experimental evidence",
+      "continuous_validation": "Framework for ongoing experimental validation"
+    }
+  }
+}
