@@ -11,9 +11,8 @@ This folder contains before/after examples showing how Context Engineering patte
 
 ### Use Cases
 - **[Software Development](./use-cases/software-development.md)** - Code, architecture, debugging
-- **[Content Creation](./use-cases/content-creation.md)** - Writing, editing, research
-- **[Data Analysis](./use-cases/data-analysis.md)** - Research, visualization, insights
-- **[Project Planning](./use-cases/project-planning.md)** - Strategy, coordination, execution
+
+*More use case examples coming soon! Want to contribute examples for content creation, data analysis, or project planning? See [CONTRIBUTING.md](../CONTRIBUTING.md)*
 
 ## How to Use These Examples
 

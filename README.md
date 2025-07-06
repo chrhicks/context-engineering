@@ -25,8 +25,8 @@ The whole project was developed collaboratively with AI agents using specialized
 
 ### Guides & Patterns
 - **[Context Patterns](./guides/context-patterns.md)** - Common issues and solutions
-- **[Best Practices](./guides/best-practices.md)** - Patterns that worked in practice
 - **[Getting Started](./guides/getting-started.md)** - Step-by-step introduction
+- **[Quick Reference](./guides/quick-reference.md)** - Essential patterns and checklists
 
 ### Examples
 - **[Before/After](./examples/)** - Real examples showing improvements
